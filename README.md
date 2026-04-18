@@ -39,7 +39,7 @@ docker-compose up --build
 
 Админ-панель: http://localhost/admin
 
-###4. Создание суперпользователя
+### 4. Создание суперпользователя
 ```bash
 docker-compose exec backend python manage.py createsuperuser
 ```
