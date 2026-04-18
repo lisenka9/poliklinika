@@ -25,11 +25,13 @@
 ```bash
 git clone https://github.com/your-repo/poliklinika.git
 cd poliklinika
+```
 
 ### 2. Запуск с Docker Compose
 
 ```bash
 docker-compose up --build
+```
 
 ### 3. Доступ к приложению
 
@@ -40,3 +42,4 @@ docker-compose up --build
 ###4. Создание суперпользователя
 ```bash
 docker-compose exec backend python manage.py createsuperuser
+```
